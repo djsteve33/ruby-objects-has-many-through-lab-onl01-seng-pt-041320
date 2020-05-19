@@ -4,7 +4,7 @@ def Appointment
   @@all = []
   
   def initialize(date, patient, doctor)
-    @date = date.to_s
+    @date = date
     @patient = patient
     @doctor = doctor
     @@all << self
