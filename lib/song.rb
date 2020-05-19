@@ -1,4 +1,4 @@
-class Song 
+class Song #connect the Artist and
   attr_accessor :name, :artist, :genre 
   
   @@all = []
